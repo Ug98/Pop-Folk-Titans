@@ -6,6 +6,12 @@ body {
   margin: 0;
   padding: 0;
 }
+#box {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background to make content readable */
+}
 nav {
   grid-area: menu;
   margin-right: 20px;
@@ -24,7 +30,8 @@ nav {
   margin-left: 30px;
 }
 h1{
-  color: white;
+  color: rgb(25, 31, 206);
+  background-color: blueviolet;
 }
 ul ,p {
   color: aqua;
