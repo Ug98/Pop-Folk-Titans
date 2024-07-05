@@ -16,7 +16,7 @@ export const toHomeView = () => `
 export const toBulgariaView = () => `
 <div id="home">
   <h1>Singers</h1>
-  <p>Click on a picture to play a song</p>
+  <p>Click on a picture to play a legendary song</p>
   <div class="home-content">
   <div class="images">
   <div class="conteiner" data-key="1">
@@ -46,17 +46,27 @@ export const toBulgariaView = () => `
 export const toSerbiaView = () => `
 <div id="home">
   <h1>Singers</h1>
+  <p>Click on a picture to play a legendary song</p>
   <div class="home-content">
    <div class = "images">
-   <img data-key="5" src="imgs/indira.jpg" alt="indira">
-   <img data-key="6" src="imgs/ceca.png" alt="ceca">
-   <img data-key="7" src="imgs/mile.jpg" alt="mile">
-   <img data-key="8" src="imgs/shaban.jpg" alt="shaban">
+  <div class="conteiner" data-key="5">
+<img src="imgs/indira.jpg" alt="indira">
+</div>
+  <div class="conteiner" data-key="6">
+<img src="imgs/ceca.png" alt="ceca">
+</div>
+  <div class="conteiner" data-key="7">
+<img src="imgs/mile.jpg" alt="mile">
+</div>
+   <div class="conteiner" data-key="8">
+<img src="imgs/shaban.jpg" alt="shaban">
+</div>
+   
 
-    <audio data-key="5" src="songs/at.mp3"></audio>
-  <audio data-key="6" src="songs/fr.mp3"></audio>
-  <audio data-key="7" src="songs/sr.mp3"></audio>
-  <audio data-key="8" src="songs/sr.mp3"></audio>
+  <audio data-key="5" src="songs/INDIRA RADIC & ALEN ISLAMOVIC  - LOPOV (Grand Show).mp3"></audio>
+  <audio data-key="6" src="songs/ceca.mp3"></audio>
+  <audio data-key="7" src="songs/MIle Kitic i Juzni Vetar - Gordana.mp3"></audio>
+  <audio data-key="8" src="songs/Saban Saulic - Sadrvani - (Audio 2003).mp3"></audio>
 
    </div>
   </div>
