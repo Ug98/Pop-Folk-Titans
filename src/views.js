@@ -2,13 +2,13 @@ export const toHomeView = () => `
 <div id="home">
   <h1></h1>
   <div class="home-content">
-    <p>Simple movie database app. You can:</p>
-    <ul>
-      <li>Browse categories</li>
-      <li>Browse movies</li>
-      <li>Add and remove movies from favorites</li>
-      <li>Search for movies by title</li>
-    </ul>
+    <p>Welcome to Folk Club Biad! Here you can enjoy:</p>
+    
+      <p>Bulgarian Pop-folk Music!</p>
+      <p>Serbian Pop-folk Music!</p>
+      <p>Greek Pop-folk Music!</p>
+    
+    <p>Relax and listen to one of the best Balkan Hits!</p>
   </div>
 </div>
 `;
@@ -16,7 +16,7 @@ export const toHomeView = () => `
 export const toBulgariaView = () => `
 <div id="home">
   <h1>Singers</h1>
-  <p>Click on a picture to play a legendary song</p>
+  <p>Click on a picture to play a legendary song!</p>
   <div class="home-content">
   <div class="images">
   <div class="conteiner" data-key="1">
@@ -50,7 +50,7 @@ export const toBulgariaView = () => `
 export const toSerbiaView = () => `
 <div id="home">
   <h1>Singers</h1>
-  <p>Click on a picture to play a legendary song</p>
+  <p>Click on a picture to play a legendary song!</p>
   <div class="home-content">
    <div class = "images">
   <div class="conteiner" data-key="5">
@@ -84,6 +84,7 @@ export const toSerbiaView = () => `
 export const toGreeceView = () => `
 <div id="home">
   <h1>Singers</h1>
+  <p>Click on a picture to play a legendary song!</p>
   <div class="home-content">
   <div class = "images">
   <div class="conteiner" data-key="9">
