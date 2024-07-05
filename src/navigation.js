@@ -1,5 +1,5 @@
 import { toHomeView, toBulgariaView, toSerbiaView, toGreeceView } from "./views";
-import { HOME, BULGARIA, SERBIA, GREECE } from "./constants.js";
+import { HOME, BULGARIA, SERBIA, GREECE, CONTAINER_SELECTOR } from "./constants.js";
 
 
 
@@ -47,14 +47,14 @@ export const loadPage = (page = '') => {
   };
   
   const renderBulgaria = () => {
-  
+    q(CONTAINER_SELECTOR).innerHTML = toBulgariaView();
   };
   
   const renderSerbia = () => {
-    
+    q(CONTAINER_SELECTOR).innerHTML = toSerbiaView();
   };
   
   const renderGreece = () => {
-  
+    q(CONTAINER_SELECTOR).innerHTML = toGreeceView();
   };
   
