@@ -32,13 +32,12 @@ export const toSerbiaView = () => `
 <div id="home">
   <h1>Singers</h1>
   <div class="home-content">
-    <p>Simple movie database app. You can:</p>
-    <ul>
-      <li>Serbia</li>
-      <li>Browse movies</li>
-      <li>Add and remove movies from favorites</li>
-      <li>Search for movies by title</li>
-    </ul>
+   <div class = "images">
+   <img src="imgs/indira.jpg" alt="indira">
+   <img src="imgs/ceca.png" alt="ceca">
+   <img src="imgs/mile.jpg" alt="mile">
+   <img src="imgs/shaban.jpg" alt="shaban">
+   </div>
   </div>
 </div>
 `;
