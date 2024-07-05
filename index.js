@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('click', event => {
       // nav events
       if (event.target.classList.contains('nav-link')) {
+        console.log(event)
         loadPage(event.target.getAttribute('data-page'));
       }
   

@@ -23,3 +23,9 @@ nav {
   color: white;
   margin-left: 30px;
 }
+h1{
+  color: white;
+}
+ul ,p {
+  color: aqua;
+}

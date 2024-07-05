@@ -1,5 +1,5 @@
-import { toHomeView, toBulgariaView, toSerbiaView, toGreeceView } from "./views";
-import { HOME, BULGARIA, SERBIA, GREECE, CONTAINER_SELECTOR } from "./constants.js";
+import { toHomeView, toBulgariaView, toSerbiaView, toGreeceView } from "/src/views.js";
+import { HOME, BULGARIA, SERBIA, GREECE, CONTAINER_SELECTOR } from "/src/constants.js";
 
 
 

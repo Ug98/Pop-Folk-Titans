@@ -1,4 +1,4 @@
-export const HOME = 'Home';
+export const HOME = 'home';
 
 export const BULGARIA = 'Bulgaria';
 
