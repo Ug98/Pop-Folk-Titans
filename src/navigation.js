@@ -1,0 +1,60 @@
+import { toHomeView, toBulgariaView, toSerbiaView, toGreeceView } from "./views";
+import { HOME, BULGARIA, SERBIA, GREECE } from "./constants.js";
+
+
+
+
+export const loadPage = (page = '') => {
+    switch (page) {
+      case HOME:
+        setActiveNav(HOME);
+        return renderHome();
+  
+      case BULGARIA:
+        setActiveNav(BULGARIA);
+        return renderBulgaria();
+  
+      case SERBIA:
+        setActiveNav(SERBIA);
+        return renderSerbia();
+  
+      case GREECE:
+        setActiveNav(GREECE);
+        return renderGreece();
+  
+      default:
+        return null;
+    }
+  };
+
+  const q = (selector) => document.querySelector(selector);
+  const qs = (selector) => document.querySelectorAll(selector);
+
+  const setActiveNav = (page) => {
+    const navs = qs('a.nav-link');
+  
+    Array
+      .from(navs)
+      .forEach(element => element
+        .getAttribute('data-page') === page
+        ? element.classList.add('active')
+        : element.classList.remove('active')
+        );
+  };
+
+  const renderHome = () => {
+    q(CONTAINER_SELECTOR).innerHTML = toHomeView();
+  };
+  
+  const renderBulgaria = () => {
+  
+  };
+  
+  const renderSerbia = () => {
+    
+  };
+  
+  const renderGreece = () => {
+  
+  };
+  
