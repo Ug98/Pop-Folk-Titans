@@ -21,15 +21,19 @@ export const toBulgariaView = () => `
   <div class="images">
   <div class="conteiner" data-key="1">
   <img src="imgs/nasko i milko.jpg" alt="nasko">
+  <p>Milko and Nasko the Mint</p>
 </div>
 <div class="conteiner" data-key="2">
 <img src="imgs/preslava.jpg" alt="preslava">
+<p>Preslava</p>
 </div>
 <div class="conteiner" data-key="3">
 <img src="imgs/toni.jpg" alt="toni">
+<p>Toni Storaro</p>
 </div>
 <div class="conteiner" data-key="4">
 <img src="imgs/galena.jpg" alt="galena">
+<p>Galena</p>
 </div>
 
   <audio data-key="1" src="songs/MILKO KALAYDZHIEV & NASKO MENTATA - BRAMCHALKA.mp3"></audio>
@@ -51,15 +55,19 @@ export const toSerbiaView = () => `
    <div class = "images">
   <div class="conteiner" data-key="5">
 <img src="imgs/indira.jpg" alt="indira">
+<p>Indira Radic</p>
 </div>
   <div class="conteiner" data-key="6">
 <img src="imgs/ceca.png" alt="ceca">
+<p>Ceca Velichkovich</p>
 </div>
   <div class="conteiner" data-key="7">
 <img src="imgs/mile.jpg" alt="mile">
+<p>Mile Kitic</p>
 </div>
    <div class="conteiner" data-key="8">
 <img src="imgs/shaban.jpg" alt="shaban">
+<p>Shaban Shaulic</p>
 </div>
    
 
@@ -77,13 +85,30 @@ export const toGreeceView = () => `
 <div id="home">
   <h1>Singers</h1>
   <div class="home-content">
-    <p>Simple movie database app. You can:</p>
-    <ul>
-      <li>Greece</li>
-      <li>Browse movies</li>
-      <li>Add and remove movies from favorites</li>
-      <li>Search for movies by title</li>
-    </ul>
+  <div class = "images">
+  <div class="conteiner" data-key="9">
+<img src="imgs/vasilis.jpeg" alt="vasilis">
+<p>Vasilis Karras</p>
+</div>
+  <div class="conteiner" data-key="10">
+<img src="imgs/notis.jpg" alt="notis">
+<p>Notis Sfakianakis</p>
+</div>
+  <div class="conteiner" data-key="11">
+<img src="imgs/antique.jpeg" alt="antique">
+<p>Antique</p>
+</div>
+  <div class="conteiner" data-key="12">
+<img src="imgs/keti.jpg" alt="keti">
+<p>Keti Garbi</p>
+</div>
+
+  <audio data-key="9" src="songs/Fenomeno.mp3"></audio>
+  <audio data-key="10" src="songs/Νότης Σφακιανάκης Σώμα μου  Notis Sfakianakis Soma mou.mp3"></audio>
+  <audio data-key="11" src="songs/Antique - Dinata Dinata (Official Video) 1999.mp3"></audio>
+  <audio data-key="12" src="songs/esena mono  - kaiti garbi.mp3"></audio>
+
+    </div>
   </div>
 </div>
 `;
