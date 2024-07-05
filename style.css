@@ -68,3 +68,18 @@ body, html {
   width: 250px;
   height: 200px;
 }
+
+.volume-control {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.volume-control input[type="range"] {
+  width: 200px;
+}

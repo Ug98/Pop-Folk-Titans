@@ -6,25 +6,43 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('click', event => {
     // nav events
     if (event.target.classList.contains('nav-link')) {
-      console.log(event)
       loadPage(event.target.getAttribute('data-page'));
+      initializeVolumeControl(); 
     }
-   // image container events
+   
    const container = event.target.closest('.conteiner');
    if (container) {
      const key = container.getAttribute('data-key');
      const audio = document.querySelector(`audio[data-key="${key}"]`);
      if (audio) {
        if (audio.paused) {
-         audio.currentTime = 0; // Rewind to the start
-         audio.play(); // Play the sound
+         audio.currentTime = 0; 
+         audio.play(); 
        } else {
-         audio.pause(); // Pause the sound
+         audio.pause(); 
        }
      }
    }
  });
 
   loadPage(HOME);
+  initializeVolumeControl(); 
 });
+
+function initializeVolumeControl() {
+  const audioElements = document.querySelectorAll('audio');
+  const volumeControl = document.getElementById('volume');
+
+  
+  audioElements.forEach(audio => {
+    audio.volume = volumeControl.value;
+  });
+
+  volumeControl.addEventListener('input', (event) => {
+    const volume = event.target.value;
+    audioElements.forEach(audio => {
+      audio.volume = volume;
+    });
+  });
+}
 
