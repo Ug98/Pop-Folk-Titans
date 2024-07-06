@@ -200,3 +200,14 @@ export const toGreeceView = () => `
   </div>
 </div>
 `;
+
+export const toSearchView = () => `
+<div id="home">
+  <h1>Search Results</h1>
+  <div class="home-content">
+    <div class="images" id="search-results">
+      <!-- Search results will be dynamically injected here -->
+    </div>
+  </div>
+</div>
+`;

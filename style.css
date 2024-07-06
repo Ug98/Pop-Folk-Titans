@@ -121,3 +121,31 @@ h1 span {
 h1 span {
   color: white; 
 }
+
+.search-container {
+  margin: 20px;
+}
+
+#search-bar {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: rgb(25, 31, 206);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
+#search-results {
+  margin-top: 20px;
+}

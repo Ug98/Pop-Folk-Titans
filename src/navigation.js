@@ -1,7 +1,5 @@
-import { toHomeView, toBulgariaView, toSerbiaView, toGreeceView } from "/src/views.js";
+import { toHomeView, toBulgariaView, toSerbiaView, toGreeceView, toSearchView } from "/src/views.js";
 import { HOME, BULGARIA, SERBIA, GREECE, CONTAINER_SELECTOR } from "/src/constants.js";
-
-
 
 
 export const loadPage = (page = '') => {
@@ -57,4 +55,4 @@ export const loadPage = (page = '') => {
   const renderGreece = () => {
     q(CONTAINER_SELECTOR).innerHTML = toGreeceView();
   };
-  
+
