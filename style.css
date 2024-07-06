@@ -43,7 +43,7 @@ h1{
   font:bolder;
 }
 ul ,p {
-  color: aqua;
+  color: wheat;
 }
 body, html {
   margin: 0;
@@ -73,7 +73,7 @@ body, html {
 }
 
 .volume-control {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
