@@ -69,8 +69,27 @@ export const toSerbiaView = () => `
    <p>Shaban Shaulic</p>
 <img src="imgs/shaban.jpg" alt="shaban">
 </div>
-   
+    <div class="conteiner" data-key="17">
+    <p>Radisa Trajkovic(Dani)</p>
+<img src="imgs/dani.jpg" alt="Dani">
+</div>
+    <div class="conteiner" data-key="17">
+    <p>Lepa Brena</p>
+<img src="imgs/Lepa-Brena-Jugoslovenka-Video1.jpg" alt="Lepa Brena">
+</div>
+   <div class="conteiner" data-key="18">
+    <p>Vesna Zmijanac</p>
+<img src="imgs/vesna.jpg" alt="Vesna">
+</div>
+    <div class="conteiner" data-key="19">
+    <p>Sinan Sakic</p>
+<img src="imgs/sinan.jpg" alt="Sinan">
+</div>
 
+  <audio data-key="19" src="songs/Sinan Sakić - Pijem na eks - (Audio 2002).mp3"></audio>
+  <audio data-key="18" src="songs/Vesna Zmijanac - Sto zivota - (Official Video 1990).mp3"></audio>
+  <audio data-key="17" src="songs/Lepa Brena - Jugoslovenka - (Official Video 1989).mp3"></audio>
+  <audio data-key="17" src="songs/Sam sam.mp3"></audio>  
   <audio data-key="5" src="songs/INDIRA RADIC & ALEN ISLAMOVIC  - LOPOV (Grand Show).mp3"></audio>
   <audio data-key="6" src="songs/ceca.mp3"></audio>
   <audio data-key="7" src="songs/MIle Kitic i Juzni Vetar - Gordana.mp3"></audio>
