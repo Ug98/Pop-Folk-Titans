@@ -10,19 +10,26 @@ document.addEventListener('DOMContentLoaded', () => {
       initializeVolumeControl(); 
     }
    
-   const container = event.target.closest('.conteiner');
-   if (container) {
-     const key = container.getAttribute('data-key');
-     const audio = document.querySelector(`audio[data-key="${key}"]`);
-     if (audio) {
-       if (audio.paused) {
-         audio.currentTime = 0; 
-         audio.play(); 
-       } else {
-         audio.pause(); 
-       }
-     }
-   }
+    const container = event.target.closest('.conteiner');
+    if (container) {
+      const key = container.getAttribute('data-key');
+      const audio = document.querySelector(`audio[data-key="${key}"]`);
+      if (audio) {
+        document.querySelectorAll('audio').forEach(a => {
+          if (a !== audio) {
+            a.pause();
+            a.currentTime = 0; 
+          }
+        });
+  
+        if (audio.paused) {
+          audio.currentTime = 0; 
+          audio.play(); 
+        } else {
+          audio.pause(); 
+        }
+      }
+    }
  });
 
   loadPage(HOME);
