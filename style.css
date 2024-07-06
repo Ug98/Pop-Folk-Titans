@@ -39,7 +39,7 @@ nav {
 }
 h1{
   color: rgb(25, 31, 206);
-  background-color: blueviolet;
+  background-color: wheat;
   font:bolder;
 }
 ul ,p {
@@ -85,4 +85,39 @@ body, html {
 
 .volume-control input[type="range"] {
   width: 200px;
+}
+@keyframes smoke {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.8);
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(-10px) scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+h1 span {
+  display: inline-block;
+  opacity: 0;
+  animation: smoke 2s linear forwards;
+  animation-delay: calc(0.1s * var(--i));
+  position: relative;
+  color: #999; 
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    1px 0 0 #000,
+    -1px 0 0 #000,
+    0 1px 0 #000,
+    0 -1px 0 #000;
+}
+h1 span {
+  color: white; 
 }

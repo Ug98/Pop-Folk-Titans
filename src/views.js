@@ -15,7 +15,16 @@ export const toHomeView = () => `
 
 export const toBulgariaView = () => `
 <div id="home">
-  <h1>Singers</h1>
+ <h1>
+    <span style="--i: 1;">S</span>
+    <span style="--i: 2;">i</span>
+    <span style="--i: 3;">n</span>
+    <span style="--i: 4;">g</span>
+    <span style="--i: 5;">e</span>
+    <span style="--i: 6;">r</span>
+    <span style="--i: 7;">s</span>
+
+  </h1>
   <p>Click on a picture to play a legendary song!</p>
   <div class="home-content">
   <div class="images">
@@ -35,7 +44,27 @@ export const toBulgariaView = () => `
 <p>Galena</p>
 <img src="imgs/galena.jpg" alt="galena">
 </div>
+  <div class="conteiner" data-key="21">
+    <p>Konstantin</p>
+<img src="imgs/koce.jpg" alt="Koceto">
+</div>
+<div class="conteiner" data-key="22">
+    <p>Kamelia</p>
+<img src="imgs/kamelia.jpg" alt="Kamelia">
+</div>
+<div class="conteiner" data-key="23">
+    <p>Ivana</p>
+<img src="imgs/ivana.jpg" alt="Ivana">
+</div>
+  <div class="conteiner" data-key="24">
+    <p>Valdes</p>
+<img src="imgs/valdes.jpg" alt="Valdes">
+</div>
 
+  <audio data-key="24" src="songs/Валдес  Рибна фиеста -Valdes-Ribna Fiesta -ORIGINAL.mp3"></audio>
+  <audio data-key="23" src="songs/iИвана - 100 патрона [HQ] [2000].mp3"></audio>
+  <audio data-key="22" src="songs/Луда по тебе.mp3"></audio>
+  <audio data-key="21" src="songs/koceТи си само осми клас.mp3"></audio>
   <audio data-key="1" src="songs/MILKO KALAYDZHIEV & NASKO MENTATA - BRAMCHALKA.mp3"></audio>
   <audio data-key="2" src="songs/PRESLAVA - DYAVOLSKO ZHELANIE.mp3"></audio>
   <audio data-key="3" src="songs/TONI STORARO - Otlichen (6).mp3"></audio>
@@ -49,7 +78,16 @@ export const toBulgariaView = () => `
 
 export const toSerbiaView = () => `
 <div id="home">
-  <h1>Singers</h1>
+  <h1>
+    <span style="--i: 1;">S</span>
+    <span style="--i: 2;">i</span>
+    <span style="--i: 3;">n</span>
+    <span style="--i: 4;">g</span>
+    <span style="--i: 5;">e</span>
+    <span style="--i: 6;">r</span>
+    <span style="--i: 7;">s</span>
+
+  </h1>
   <p>Click on a picture to play a legendary song!</p>
   <div class="home-content">
    <div class = "images">
@@ -73,7 +111,7 @@ export const toSerbiaView = () => `
     <p>Radisa Trajkovic(Dani)</p>
 <img src="imgs/dani.jpg" alt="Dani">
 </div>
-    <div class="conteiner" data-key="17">
+    <div class="conteiner" data-key="20">
     <p>Lepa Brena</p>
 <img src="imgs/Lepa-Brena-Jugoslovenka-Video1.jpg" alt="Lepa Brena">
 </div>
@@ -88,7 +126,7 @@ export const toSerbiaView = () => `
 
   <audio data-key="19" src="songs/Sinan Sakić - Pijem na eks - (Audio 2002).mp3"></audio>
   <audio data-key="18" src="songs/Vesna Zmijanac - Sto zivota - (Official Video 1990).mp3"></audio>
-  <audio data-key="17" src="songs/Lepa Brena - Jugoslovenka - (Official Video 1989).mp3"></audio>
+  <audio data-key="20" src="songs/Lepa Brena - Jugoslovenka - (Official Video 1989).mp3"></audio>
   <audio data-key="17" src="songs/Sam sam.mp3"></audio>  
   <audio data-key="5" src="songs/INDIRA RADIC & ALEN ISLAMOVIC  - LOPOV (Grand Show).mp3"></audio>
   <audio data-key="6" src="songs/ceca.mp3"></audio>
@@ -102,7 +140,16 @@ export const toSerbiaView = () => `
 
 export const toGreeceView = () => `
 <div id="home">
-  <h1>Singers</h1>
+  <h1>
+    <span style="--i: 1;">S</span>
+    <span style="--i: 2;">i</span>
+    <span style="--i: 3;">n</span>
+    <span style="--i: 4;">g</span>
+    <span style="--i: 5;">e</span>
+    <span style="--i: 6;">r</span>
+    <span style="--i: 7;">s</span>
+
+  </h1>
   <p>Click on a picture to play a legendary song!</p>
   <div class="home-content">
   <div class = "images">
